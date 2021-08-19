@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <title>이지투어 - 문의하기</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/xeicon@2/xeicon.min.css">
+  <link rel="stylesheet" href="css/common.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-migrate/3.3.2/jquery-migrate.min.js"></script>
+  <script src="js/custom.js"></script>
+  <script src="js/qna.js"></script>
+
+</head>
+<body>  
+  <!-- wrap -->
+  <div id="wrap">
+    
+    <header id="header" class="sticky">
+      <div class="header_area clear">
+        <h1 class="logo"><a href="index.html">EASY TOUR</a></h1>
+        <p class="openMOgnb"><a href="#"><b class="hdd"></b><span></span><span></span><span></span></a></p>
+        <!-- header cont -->
+        <div class="header_cont">
+          <ul class="util clear">
+            <li>로그인&nbsp;&nbsp;&nbsp;</li>
+            <li>회원가입</li>
+          </ul>
+          <!-- nav -->
+          <nav class="nav">
+            <ul class="gnb clear">
+              <li><a href="#" class="openAll1">여행정보</a>
+                <div class="gnb_depth gnb_depth2_1">
+                  <ul class="submenu_list">
+                    <li><a href="#">국내여행</a></li>
+                    <li><a href="#">해외여행</a></li>
+                  </ul>
+                </div>
+              </li>
+              <li><a href="#" class="openAll3">상품투어</a>
+                <div class="gnb_depth gnb_depth2_3">
+                  <ul class="submenu_list">
+                    <li><a href="#">기획전</a></li>
+                    <li><a href="#">프로그램 소개</a></li>
+                    <li><a href="#">여행자료</a></li>
+                  </ul>
+                </div>
+              </li>
+              <li><a href="#" class="openAll4">티켓/가이드</a>
+                <div class="gnb_depth gnb_depth2_4">
+                  <ul class="submenu_list">
+                    <li><a href="#">항공</a></li>
+                    <li><a href="#">호텔</a></li>
+                  </ul>
+                </div>
+              </li>
+              <li><a href="#" class="openAll4">고객센터</a>
+                <div class="gnb_depth gnb_depth2_4 clear">
+                  <ul class="submenu_list">
+                    <li><a href="#">공지사항</a></li>
+                    <li><a href="event.html">이 벤 트</a></li>
+                    <li><a href="qna.html">상담문의</a></li>
+                  </ul>
+                </div>
+              </li>
+            </ul>
+          </nav>
+          <!-- <p class="closePop"><a href="#">닫기</a></p> -->
+        </div>
+        <!-- //header_cont -->
+      </div>
+    </header>
+
+    <!-- QNA container -->
+    <div id="qna_container">
+      <h1 class="box_inner">상담문의</h1>
+      <div class="call_notice"><img src="img/qna/call_back.png" alt="전화문의"></div>
+      <div class="question_list_wrap box_inner">
+        <h3>자주 찾는 질문</h3>
+        <div class="accordion-wrap">
+          <div class="que">
+            <span>여행상품 변경이나 취소는 어떻게 하나요?</span>
+          </div>
+           <div class="anw">
+            <span>
+              여행상품마다 특별약관 또는 표준약관 적용 됩니다. <br>
+              여행 상품의 특성에 따라 여행 취소 요청일과 출국일을 기준으로하여 취소료가 부과됩니다. <br>
+              상품별로 상이하므로 예약했던 여행 일정표의 취소 약관을 확인하여 주십시요. <br>
+              여행 일정의 변경은  동일한 상품인 경우도 출국일을 변경하거나 여행 목적지를 변경하면 <br>
+              해당 상품의 취소로 간주되어 취소료가 부과 될 수 있습니다. <br>
+              항공 좌석의 잔여석 유무와 호텔의 잔여 객실 유무에 따라 변경이 가능 혹은 불가능 할 수 있으니 <br>
+              변경하고자 하는 상품의 잔여석, 출발 가능한 취소 인원 등을 반드시 확인 후 변경하여 주시길 바랍니다.
+            </span>
+           </div>
+            <div class="que">
+            <span>예약은 출발 일로부터 며칠 전까지 할 수 있나요?</span>
+           </div>
+           <div class="anw">
+            <span>
+              최대 출발일 기준 3일 이전 상품까지만 예약 가능하십니다. <br>
+              상품특성마다 예약기준은 다를 수 있습니다.
+            </span>
+           </div>
+            <div class="que">
+            <span>해외여행을 가려면 꼭 비자가 있어아 하나요?</span>
+           </div>
+           <div class="anw">
+            <span>
+              여행 출발 전 여행국가의 비자 필요 유무를 반드시 확인하셔야 합니다. <br>
+              비자를 요구하는 국가를 여행하고자 하실경우 비자가 없으면 여행이 불가능합니다. <br>
+              고객님이 선택하신 하나투어 여행상품 일정표 하단에서 여권/비자관련정보를 확인하실 수 있습니다. <br>
+            </span>
+           </div>
+            <div class="que">
+            <span>결제는 언제까지 해야하나요?</span>
+           </div>
+           <div class="anw">
+            <span>
+              결제 규정은 호텔마다 상이하며, 취소 마감일이 존재하는 경우 해당 마감일 시간 이전까지 결제를 완료해 주시면 됩니다. <br>
+              단, 환율에 따라 예약시점 금액과 결제시점 금액이 달라 질 수 있습니다.
+            </span>
+           </div>
+            <div class="que">
+            <span>국내단체여행 문의 시 진행 과정이 궁금합니다.</span>
+           </div>
+           <div class="anw">
+            <span>
+              국내는 제주도와 내륙 단체여행전문가가 배치되어 고객 상담 및 업무처리 서비스를 제공하고 있습니다. <br>
+              진행절차는 1. 상담 및 견적문의 - 2. 여행기획 및 견적발송 - 3. 계약서 진행 및 여행, 순으로 진행 됩니다.
+            </span>
+           </div>
+        </div>
+      </div>
+      <div class="question_wrap box_inner">
+        <div class="question_personal">1:1 문의하기</div>
+        <div class="question_check">문의내역 확인하기</div>
+      </div>
+      
+    </div> 
+
+    <footer>
+      <div class="foot_area box_inner">
+        <ul class="foot_list clear">
+          <li><a href="#">이용약관&nbsp;</a></li>
+          <li><a href="#">개인정보취급방침</a></li>
+        </ul>
+        <h2>이지투어</h2>
+        <p class="addr">서울특별시 종로구 혜화동 9길 청운빌딩 5층<span class="gubun">/</span>
+        <span class="br_line">대표전화 <span class="space0">02-1234-5678</span><span class=gubun>/</span>
+        <span class="br_line">E-mail: <span class="space0">titour@touristintour.com</span></span>
+        </span>
+        </p>
+        <p class="copy">Copyright(c) EASYTOUR all right reserved</p>
+        <ul class="snslink clear">
+          <li><a href="#"><i class="xi-instagram"></i></a></li>
+          <li><a href="#"><i class="xi-facebook-official"></i></a></li>
+          <li><a href="#"><i class="xi-kakaotalk"></i></a></li>
+        </ul>
+      </div>
+    </footer>
+
+  </div>
+  <!-- //wrap -->
+
+  <div id="login-wrap" class="modal-wrap">
+    <div class="login-modal">
+      <form action="#" method="get" id="logForm">
+        <h2>Login</h2>
+        <button type="button" class="close"><i class="xi-close"></i></button>
+        <div class="log-icon-wrap">
+          <div class="log-con1 sns"><a><i class="xi-kakaotalk"></i></a></div>
+          <div class="log-con2 sns"><a><i class="xi-facebook-official"></i></a></div>
+          <div class="log-con3 sns"><a><i class="xi-naver-square"></i></a></div>
+          <div class="log-con4 sns"><a><i class="xi-google"></i></a></div>
+        </div>
+        <div class="idForm">
+          <h4>E-mail</h4>
+          <input type="email" id="loginId" class="id" placeholder="이메일을 입력해주세요">
+        </div>
+        <div class="passForm">
+          <h4>password</h4>
+          <input type="password" id="loginPass" class="pass" placeholder="비밀번호를 입력해주세요">
+        </div>
+        <div class="loginEtc">
+          <div class="checkbox">
+            <input type="checkbox" name="keeplogin" id="keeplogin">
+            <label for="keeplogin">로그인 상태 유지</label>
+            <div class="forgetPass">
+              <a href="">비밀번호 찾기</a>
+            </div>
+            <div class="regiBtn">회원가입</div>
+          </div>
+        </div>
+        <div class="submit">
+          <button type="button">로그인</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+
+  <!-- regi wrap -->
+  <div id="regi-wrap" class="modal-wrap">
+    <div class="regi-modal">
+      <form name="join_form" action="#" method="get">
+        <h2>회원가입</h2>
+        <button type="button" class="close"><i class="xi-close"></i></button>
+        <div>
+          <label>아이디<br><input type="text" name="udi" id="uid"></label>
+          <select name="email_sel" id="email_sel">
+            <option value="">직접입력</option>
+            <option value="naver.com">naver.com</option>
+            <option value="gmail.com">gmail.com</option>
+            <option value="nate.com">nate.com</option>
+          </select>
+          <button type="button" class="email_btn">중복확인</button>
+        </div>
+        <div><label>비밀번호<input type="password" name="pwd" id="pwd" placeholder="영문자, 숫자, 특수문자 조합으로 입력해주세요"></label></div>
+        <div><label>비밀번호 확인<input type="password" name="repwd" id="repwd"></label></div>
+        <div><label>이름<input type="text" name="uname" id="uname"></label></div>
+        <div>
+          <label>전화번호 ("-"없이 숫자만 입력)<input type="tel" name="mobile" id="mobile"></label>
+        </div>
+        <div>
+          <label>약관동의 <input type="checkbox" value="Y" name="agree" id="agree"> 약관에 동의합니다.</label>
+        </div>
+        <div class="join_btn">
+          <button type="button">가입하기</button>
+        </div>
+      </form>
+    </div>
+  </div>
+ </body>
+ 
+</html>
