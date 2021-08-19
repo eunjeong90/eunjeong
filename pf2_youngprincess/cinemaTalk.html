@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>영화공간주안</title>
+  <script src="https://use.fontawesome.com/257359bd63.js"></script>
+  <link rel="stylesheet" href="css/common.css">
+  <!-- jQuery -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-migrate/3.3.2/jquery-migrate.min.js"></script>
+  <!-- gsap -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.0/gsap.min.js" integrity="sha512-1dalHDkG9EtcOmCnoCjiwQ/HEB5SDNqw8d4G2MKoNwjiwMNeBAkudsBCmSlMnXdsH8Bm0mOd3tl/6nL5y0bMaQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.0/ScrollTrigger.min.js" integrity="sha512-QcYm1q7RbnXmwY7HJ0H7938IS0MalTPYqGUF0fIwQgEjMBt2tqjDBt+R5I+ppdwEohjMdHnFU0H+RxmrGQ8qcg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="js/custom.js"></script>
+  <script src="js/scrollTrigger.js"></script>
+</head>
+<body>
+  <!-- 버거 메뉴 -->
+  <div id="side_panel">
+    <div class="slide_panel_wrap">
+      <nav>
+        <ul class="first">
+          <li><a href="spacejuan.html">영화공간</a></li>
+          <li><a href="show.html">상영작</a></li>
+          <li><a href="cinemaTalk.html">시네마토크</a></li>
+          <li><a href="">영공주아고라</a></li>
+          <li><a href="">멤버쉽</a></li>
+          <li><a href="">예매하기</a></li>
+        </ul>
+        <ul class="last_sns">
+          <li><i class="fa fa-instagram"></i></li>
+          <li><i class="fa fa-facebook"></i></li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+  <div id="wrap">
+    <!-- 로고, 버거네비버튼 -->
+    <header id="header">
+      <div class="header_wrap">
+        <h1 id="logo"><a href="index.html"><img class="logoImg" src="img/logo/logo_front.png" alt="영화공간주안"></a></h1>
+        <div id="side_panel_trigger">
+          <button class="burger_btn">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+        </div>
+      </div>
+    </header>
+    
+    <!-- 메인 컨텐츠 -->
+    <div id="cinetalk_container">
+      <div class="cineTalk_visual">
+        <div id="visual_text">
+          <div class="vt1">MO</div>
+        </div>
+        <div id="videoPlay">
+          <div class="video_back"></div>
+          <video id="mommy" src="img/video/mommy_cut.mp4" muted loop></video>
+        </div>
+        <div id="visual_text">
+          <div class="vt2">MMY</div>
+        </div>
+      </div>
+    </div>
+    <div class="cineTalk_con box_inner">
+      <div class="con_main_text">
+        <p class="title">영공주 30번째 시네마토크 '마미'</p>
+        <p class="sub_tit_one">자비에 돌란 감독의 5번째 작품</p>
+        <p class="sub_tit_two">제67회 칸영화제 심사위원상 수상</p>
+      </div>
+      <div class="cineTalk_back"><img src="img/cinematalk/title_back.gif" alt=""></div>
+      <div class="youngpricess_info">
+        <p class="pro_info">
+          2021.07.14 (금) 19시 20분 <br>
+          참석 아동심리학 전문가 홍길동 <br>
+          정시 상영 후 GV가 진행됩니다. <br>
+          <strong>상기 GV 일정 및 참석자는 변동될 수 있습니다.</strong> <br>
+        </p>
+        <p class="pro_info_two">
+          영화공간주안 시네마토크는<br>
+          감독, 배우 또는 관련 전문가를 초청하여 영화의 기획 의도나<br>
+          작품의 의미를 토론하고 영화의 깊이 있는 이야기를 들을 수 있는<br>
+          영화공간주안의 특별 상영회입니다.
+        </p>
+      </div>
+      <div class="program_box">
+        <span class="sub_tit">what kind of movie?</span>
+        <span class="prg_img"><img src="img/cinematalk/mommy_still.jpg" alt=""></span>
+        <span class="prg prg1">
+          아이 킬드 마이 마더를 시작으로 하트비트, 로렌스 애니웨이,
+          탐엣더팜까지 불과 스물다섯의 어린 나이로 전세계 영화제를 
+          석권하며 ‘칸의 총아’로 떠올랐던 자비에 돌란 감독의 
+          다섯 번째 작품 마미는 제 67회 칸영화제에서 세계적인 거장 
+          장 뤽 고다르의 언어와의 작별과 함께 심사위원상을 수상하며 
+          전세계인의 이목을 집중시켰다.
+        </span>
+        <span class="prg prg2">
+          이후 제39회 토론토국제영화제와 제19회 부산국제영화제에서 
+          관객들의 폭발적인 반응과 함께 최고의 화제작으로 떠오른 마미는 
+          “숨막히는 에너지와 경이로운 온기로 가득 찬 작품”_Time, 
+          “감정의 불꽃놀이가 펼쳐진다”_Screen International, 
+          “재미있고, 슬프지만, 무엇보다도 독창적인 영화”_Variety, 
+          “대담한 비주얼과 풍성한 이야기”_Vanity Fair, 
+          “기교를 뛰어넘는 에너지와 움직임”_indieWIRE, “풍부함과 펑키함, 
+          그리고 완벽한 독특함이 전염된다”_Financial Times, 
+          “풍부하고 심도 깊고, 놀라울 만큼 살아있는 작품”_The Playlist 
+          등의 격찬을 이끌어내며 자비에 돌란 감독을 세계적인 거장으로 우뚝 세웠다. 
+        </span>
+        <span class="prg_img_two"><img src="img/cinematalk/xavier.jpg" alt=""></span>
+      </div>
+    </div>
+    <!-- 메인 끝 -->
+
+    <!-- 푸터 -->
+    <div id="footer">
+      <div class="box_inner">
+        <div class="footer_left le">
+          <div class="small_logo"><img src="img/logo/logo_back.png" alt=""></div>
+          <span class="tel">Tel. 032-545-7569 &nbsp</span>
+          <span class="fax">&nbsp Moblie. 010-8867-7569</span>
+          <p class="add">상기 사이트는 장은정 포트폴리오로 제작되었습니다.</p>
+          <p class="copy">2021 ⓒ EUNJEONG</p>
+        </div>
+        <div class="footer_right ri">
+          <div class="family_site">
+            <p>family site</p>
+            <ul>
+              <li><a href="#">남구청&nbsp&nbsp</a></li>
+              <li><a href="#">남구학산문화원&nbsp&nbsp</a></li>
+              <li><a href="#">학산소담&nbsp&nbsp</a></li>
+              <li><a href="#">주안영상미디어센터&nbsp&nbsp</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>영화공간주안</title>
+  <script src="https://use.fontawesome.com/257359bd63.js"></script>
+  <link rel="stylesheet" href="css/common.css">
+  <!-- jQuery -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-migrate/3.3.2/jquery-migrate.min.js"></script>
+  <!-- swiper slide -->
+  <script src="js/custom.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollTrigger/1.0.5/ScrollTrigger.min.js"></script>
+</head>
+<body>
+  <!-- 버거 메뉴 -->
+  <div id="side_panel">
+    <div class="slide_panel_wrap">
+      <nav>
+        <ul class="first">
+          <li><a href="spacejuan.html">영화공간</a></li>
+          <li><a href="show.html">상영작</a></li>
+          <li><a href="cinemaTalk.html">시네마토크</a></li>
+          <li><a href="">영공주아고라</a></li>
+          <li><a href="">멤버쉽</a></li>
+          <li><a href="">예매하기</a></li>
+        </ul>
+        <ul class="last_sns">
+          <li><i class="fa fa-instagram"></i></li>
+          <li><i class="fa fa-facebook"></i></li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+  <div id="wrap">
+    <!-- 로고, 버거네비버튼 -->
+    <header id="header">
+      <div class="header_wrap">
+        <h1 id="logo"><a href="index.html"><img class="logoImg" src="img/logo/logo_front.png" alt="영화공간주안"></a></h1>
+        <div id="side_panel_trigger">
+          <button class="burger_btn">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <!-- 상영작 -->
+    <div id="container">
+      <div class="show_area">
+        <h1>now showing</h1>
+        <div class="cine_list">
+          <div class="cineItem cine_1" data-trigger>
+            <div class="backbase">
+              <a href="#">
+                <div class="img_wrap"></div>
+                <div class="img_wrap2"></div>
+                <div class="text_wrap">
+                  <p class="dir"><span>감독&nbsp</span>&nbsp셀린 시아마</p>
+                  <p class="act"><span>배우&nbsp</span>&nbsp아델 하넬, 노에미 메들랑</p>
+                  <p class="act"><span>장르&nbsp</span>&nbsp드라마</p>
+                  <p class="act"><span>상영일자&nbsp</span>&nbsp21.07.15~21.07.31</p>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="cineItem cine_2" data-trigger>
+            <div class="backbase">
+              <a href="#">
+                <div class="img_wrap"></div>
+                <div class="img_wrap2"></div>
+                <div class="text_wrap">
+                  <p class="dir"><span>감독&nbsp</span>&nbsp노아 바움벡</p>
+                  <p class="act"><span>배우&nbsp</span>&nbsp스칼렛 조한순, 아담 드라이버</p>
+                  <p class="act"><span>장르&nbsp</span>&nbsp코미디, 드라마</p>
+                  <p class="act"><span>상영일자&nbsp</span>&nbsp21.07.15~21.07.31</p>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="cineItem cine_3" data-trigger>
+            <div class="backbase">
+              <a href="#">
+                <div class="img_wrap"></div>
+                <div class="img_wrap2"></div>
+                <div class="text_wrap">
+                  <p class="dir"><span>감독&nbsp</span>&nbsp존 카사베츠</p>
+                  <p class="act"><span>배우&nbsp</span>&nbsp제나 롤렌즈, 피터 포크</p>
+                  <p class="act"><span>장르&nbsp</span>&nbsp드라마, 멜로</p>
+                  <p class="act"><span>상영일자&nbsp</span>&nbsp21.07.15~21.07.31</p>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="cineItem cine_4" data-trigger>
+            <div class="backbase">
+              <a href="#">
+                <div class="img_wrap"></div>
+                <div class="img_wrap2"></div>
+                <div class="text_wrap">
+                  <p class="dir"><span>감독&nbsp</span>&nbsp윤가은</p>
+                  <p class="act"><span>배우&nbsp</span>&nbsp최수인, 설혜인</p>
+                  <p class="act"><span>장르&nbsp</span>&nbsp드라마</p>
+                  <p class="act"><span>상영일자&nbsp</span>&nbsp21.07.15~21.07.31</p>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="cineItem cine_5" data-trigger>
+            <div class="backbase">
+              <a href="#">
+                <div class="img_wrap"></div>
+                <div class="img_wrap2"></div>
+                <div class="text_wrap">
+                  <p class="dir"><span>감독&nbsp</span>&nbsp박찬경</p>
+                  <p class="act"><span>배우&nbsp</span>&nbsp김금화, 김새론, 류현경</p>
+                  <p class="act"><span>장르&nbsp</span>&nbsp다큐멘터리, 드라마</p>
+                  <p class="act"><span>상영일자&nbsp</span>&nbsp21.07.15~21.07.31</p>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="cineItem cine_6" data-trigger>
+            <div class="backbase">
+              <a href="#">
+                <div class="img_wrap"></div>
+                <div class="img_wrap2"><img src="img/mainSlide/01_LadyonFire.jpg" alt=""></div>
+                <div class="text_wrap">
+                  <p class="dir"><span>감독&nbsp</span>&nbsp애나 릴리 아미푸르</p>
+                  <p class="act"><span>배우&nbsp</span>&nbsp세일라 밴드, 아라쉬 마란디</p>
+                  <p class="act"><span>장르&nbsp</span>&nbsp로맨스, 스릴러</p>
+                  <p class="act"><span>상영일자&nbsp</span>&nbsp21.07.15~21.07.31</p>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+    <!-- 메인 끝 -->
+
+    <!-- 푸터 -->
+  <div id="footer">
+    <div class="box_inner">
+      <div class="footer_left le">
+        <div class="small_logo"><img src="img/logo/logo_back.png" alt=""></div>
+        <span class="tel">Tel. 032-545-7569 &nbsp</span>
+        <span class="fax">&nbsp Moblie. 010-8867-7569</span>
+        <p class="add">상기 사이트는 장은정 포트폴리오로 제작되었습니다.</p>
+        <p class="copy">2021 ⓒ EUNJEONG</p>
+      </div>
+      <div class="footer_right ri">
+        <div class="family_site">
+          <p>family site</p>
+          <ul>
+            <li><a href="#">남구청&nbsp&nbsp</a></li>
+            <li><a href="#">남구학산문화원&nbsp&nbsp</a></li>
+            <li><a href="#">학산소담&nbsp&nbsp</a></li>
+            <li><a href="#">주안영상미디어센터&nbsp&nbsp</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+  <script>
+
+  </script>
+  <script>
+
+
+  var trigger = new ScrollTrigger.default({
+    trigger: {
+      pin: true,
+      delay: 10,
+      offset: {
+        viewport: {
+          y:0.2
+        }
+      },
+      scrub: 10
+    }
+  });
+
+  trigger.add('[data-trigger]');
+
+
+
+  </script>
+</body>
+</html>
